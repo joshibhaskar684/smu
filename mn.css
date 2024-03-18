@@ -1,0 +1,744 @@
+.poppins-thin {
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+  }
+  
+  .poppins-extralight {
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+  }
+  
+  .poppins-light {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .poppins-regular {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .poppins-medium {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  .poppins-semibold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+  }
+  
+  .poppins-bold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .poppins-extrabold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+  }
+  
+  .poppins-black {
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+  }
+  
+  .poppins-thin-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    font-style: italic;
+  }
+  
+  .poppins-extralight-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: italic;
+  }
+  
+  .poppins-light-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+  }
+  
+  .poppins-regular-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  .poppins-medium-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: italic;
+  }
+  
+  .poppins-semibold-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: italic;
+  }
+  
+  .poppins-bold-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+  }
+  
+  .poppins-extrabold-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    font-style: italic;
+  }
+  
+  .poppins-black-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+    font-style: italic;
+  }
+  
+.material-symbols-outlined {
+    font-variation-settings:
+      'FILL' 0,
+      'wght' 400,
+      'GRAD' 0,
+      'opsz' 24
+  }
+  
+  
+  .material-symbols-outlined {
+    font-variation-settings:
+      'FILL' 0,
+      'wght' 400,
+      'GRAD' 0,
+      'opsz' 24
+  }
+  
+  .material-symbols-outlined {
+    font-variation-settings:
+      'FILL' 0,
+      'wght' 700,
+      'GRAD' 200,
+      'opsz' 24
+  }
+  
+  .anta-regular {
+    font-family: "Anta", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  * {
+    font-family: Anta;
+  }
+.sidebar {
+    z-index: 1;
+    height: 300px;
+    width: 65px;
+    position: fixed;
+    top: 10;
+    right: 0;
+  
+    padding-top: 150px;
+  }
+  
+  .sidebar a {
+    border-radius: 10px 10px;
+    padding: 5px;
+    margin-bottom: 9px;
+    background-color: rgb(255, 255, 255);
+    
+    text-decoration: none;
+    color: #000;
+    display: block;
+    width: 60px;
+    height: 50px;
+    box-shadow: 0 0 3px #cc00ff, 3px 0 11px #0000ff;
+    
+    
+    text-align: center;
+    text-size-adjust: 34px;
+  
+  
+  }
+  
+.bi{
+    font-weight: 10000;
+    font-size: 30px;
+  }
+  /* vedio*/
+  .video {
+    border: 2px solid rgb(248, 8, 8);
+    height: 750px;
+    margin:30px;
+    width:200%;
+    box-shadow: 0 5px 8px rgb(221, 3, 255) , 3px 0 11px #0000ff;
+  
+  }
+
+  .video video {
+    
+    
+    width:200%;
+    height: 200%;
+  }
+.videoo{
+    /*border:2px solid black;*/
+    width: 90%;
+    margin-left:85px;
+}
+
+.firstmovingtext {
+    margin-top: 50px;
+    color: rgb(255, 0, 0);
+    font-size: 44px;
+    /*border: 2px solid black;*/
+
+    text-shadow: 0 0 3px #cc00ff, 3px 0 11px #0000ff;
+  }
+  /* smu details*/
+  .introd{
+    margin-top: 140px;
+    display: flex;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .cards{
+    width:30%;
+  }
+  .introduction{
+    text-align: left;
+    font-size: 20px;
+    width:30%;
+    padding:5px;
+  }
+  .introduction2{
+    padding:5px;
+    font-size:20px;
+    width: 40%;
+  }
+.cards-title{
+    font-size: 60px;
+    font-weight: 900;
+
+}
+.cards-text{
+    font-size:40px;
+}
+.cards-link{
+    font-size: 29px;
+}
+/*....poster.......*/
+.w3-contents{
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 140px;
+}
+.w3-content img{
+    height:700px; 
+    width: 100%;
+    
+
+}
+/* search course*
+
+
+
+.courseask{
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 150px;
+    display: flex;
+    height:512px;
+    width:95%;
+    order: 2px solid black;
+}
+.cxrds{
+    box-shadow: 0 5px 8px rgb(0, 0, 0);
+   
+    width:40%;
+}
+.cxrds h2{
+    margin-top: 140px;
+    margin-left: 50px;
+    font-weight: 700;
+    font-size: 35px;
+}
+.cxrds label{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 50px;
+    font-size: 20px;
+}
+.cardds select{
+    margin-top:10px;
+    margin-bottom:10px;
+    margin-left:45px;
+    width:450px;
+    height:60px;
+    background-color: rgba(248, 247, 247, 0.984);
+}
+.cardds button{
+    margin-top:10px;
+    margin-bottom:10px;
+    margin-left:45px;
+    width:450px;
+    height:60px;
+    background-color: #000;
+    color: azure;
+    font-size: 20px;
+    font-weight: 300;
+}
+.carrr{
+    border-radius: 2%;
+    margin-top: 120px;
+    height: 470px;
+    margin-right: 0;
+    border:2px solid black;
+    width: 45%;
+    box-shadow: 0 5px 8px rgb(0, 0, 0);
+  
+}
+.card img{
+    width:540px;
+    height: 470px;
+}
+.card-title{
+    margin-top: 280px;
+    font-weight: 800;
+    font-size: 40px;
+}
+.card-text{
+    font-size: 31px;
+}
+.cardtext{
+    font-size: 29px;
+}
+
+.card-space{
+    width:10%;
+}
+
+
+  
+**/
+.form-ad-div{
+    margin-top: 80px;
+    display: flex;
+   /* border: 2px solid black;*/
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.form-div{
+    box-shadow: 0 5px 8px rgb(0, 0, 0);
+    
+    margin-left: 10px;
+    display: flex;
+    margin-top:120px;
+    height:612px;
+    width:45%;
+    /*border:2px solid black;*/
+
+}
+.form-div2{
+    margin-top: 90px;
+    display: block;
+}
+.form-div2 h2{
+    margin-left: 40px;
+    font-weight: 500;
+    font-size: 35px;
+    margin-top: 40px;
+    margin-bottom: 0px;
+    /*border:2px solid black;*/
+    height:62px;
+    width: 85%;
+}
+.form-div2 label{
+    margin-left: 40px;
+    font-size: 25px;
+    margin-top:0px;
+    height:62px ;
+    width: 85%;
+    /*border:2px solid black;*/
+}
+.form-div2 select{
+    margin-left: 40px;
+    font-size: 19px;
+    margin-top:0px;
+    height:62px ;
+    width: 85%;
+    /*border:2px solid black;*/
+    background-color: rgba(248, 247, 247, 0.984);
+
+
+}
+
+.form-div2 button{
+    margin-left: 40px;
+    font-size: 19px;
+    margin-top:30px;
+    height:62px ;
+    width: 85%;
+    border:2px solid black;
+    background-color: #000;
+    color: azure;
+    
+    transition: all ease-in-out 0.3s;
+
+}
+.form-div2 button:hover{
+    
+    box-shadow: 0 0 3px #cc00ff, 3px 0 11px #0000ff;
+    
+
+}
+.form-ad{
+    margin-top:120px;
+    width:10%;
+    height:612px;
+   /* border:2px solid black;*/
+}
+.ad-div{
+    box-shadow: 0 5px 8px rgb(0, 0, 0);
+    
+    position: relative;
+    margin-right: 10px;
+    margin-bottom: 70px;
+    margin-top: 260px;
+    height:612px;
+    width:45%;
+   /* border:2px solid black;*
+    background-image: url('https://tse2.mm.bing.net/th?id=OIP.YRNlA1SUgr_3jC5kjaBpmgHaE7&pid=Api&P=0&h=180');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+    background-position: center;*/
+}
+.ad-div img{
+    width: 100%;
+    height:100%;
+}
+  
+  .text-overlay {
+    
+    position: absolute;
+    top: 70%;
+    left: 35%;
+    transform: translate(-50%, -50%);
+    color: white; /* Text color */
+    text-align: left; /* Center text horizontally */
+  }
+  
+  .text-overlay h5 {
+    
+    font-weight: 700;
+    font-size: 49px; /* Adjust font size as needed */
+    margin-bottom: 10px; /* Adjust spacing between title and description */
+  }
+  
+  .text-overlay p {
+    font-size: 32px; /* Adjust font size as needed */
+  }
+  .text-overlay button{
+    color:rgb(255, 255, 255);
+    font-weight: 900;
+    font-size: 29px;
+    background-color: transparent;
+    border:none
+  }
+  
+/* facilty intro*/
+.univerintro{
+  width:99%;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 70px;
+    margin-bottom: 70px;
+  }
+  .univerintro h8{
+    margin-left: 500px;
+    margin-right: 250px;
+    margin-bottom: 200px;
+    font-size: 45px;
+    font-weight: 900;
+  }
+  .univerintro p{
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+    text-align: center;
+    font-size: 29px;
+    font-weight: 300;
+  }
+  .univerintro button{
+    font-size: 29px;
+    margin-top: 50px;
+    margin-left: 45%;
+    background: transparent;
+    border:none;
+    transition: all ease-in-out 0.3s ;
+    border-bottom: 2px solid black;
+  }
+  .univerintro button:hover{
+    font-size: 29px;
+    margin-top: 50px;
+    margin-left: 45%;
+    background: transparent;
+    box-shadow: 0 0 3px #cc00ff, 3px 0 11px #0000ff;
+    
+
+    border: 2px solid black;
+  }
+  .facilty-pdiv{
+    /*border: 2px solid black;*/
+    margin-left: 0px;
+    margin-right: 0px;
+    display: flex;
+    width:100%;
+  }
+  .spacemdiv{
+    width:3%;
+  }
+.cardss{
+  
+  width: 20%;
+  margin: 10px;
+  
+  box-shadow: 0 5px 8px rgba(139, 0, 252, 0.637);
+}
+.cardd{
+  margin:20px;
+}
+.cardss{
+  margin: 10px;
+
+}
+.cardss h9{
+  margin: 20px;
+  color: #000;
+  font-size: 29px;
+  font-weight: 900;
+  
+}
+.cardss p{
+  margin: 20px;
+  font-size: 15px;
+}
+.cardd img{
+  width:100%;
+}
+/**/
+/**/
+
+  @media only screen and (max-width: 480px) {
+    *{
+      font-family: Anta;
+    }
+    
+  .video {
+    border: 2px solid black;
+    height: 212px;
+
+    width: 100%;
+  }
+
+  .video video {
+    /*border:2px solid rgb(255, 145, 0);*/
+    height: 914px;
+  }
+      .videoo{
+        width:90vw;
+        margin-left:20px;
+        margin-right: 10px;
+      }
+      /*moving text8*/
+  .firstmovingtext {
+    margin-top: 0px;
+    color: rgb(255, 0, 0);
+    font-size: 44px;
+    /*border: 2px solid black;*/
+
+    text-shadow: 0 0 3px #cc00ff, 3px 0 11px #0000ff;
+  }
+  .introd{
+    margin-top: 40px;
+    display: block;
+  }
+  .cards{
+    width:100%;
+  }
+  
+  .introduction{
+    margin-top:50px;
+    text-align: left;
+    font-size: 20px;
+    width:100%;
+    padding:5px;
+  }
+  .introduction2{
+    padding:5px;
+    font-size:20px;
+    width:100%;
+    margin-bottom: 30px;
+  }
+  .cards-title{
+    font-size: 50px;
+    font-weight: 700;
+
+}
+.cards-text{
+    font-size:35px;
+}
+.cards-link{
+    font-size: 25px;
+}
+.w3-content img{
+    height:212px;
+    width:100%;
+
+}
+
+.form-ad-div{
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top:50px;
+    display: block;
+    /*border:2px solid black;*/
+}
+.form-div{
+    box-shadow: 0 5px 8px rgb(0, 0, 0);
+    margin-left: 0px;
+    margin-top:90px;
+    margin-bottom: 40px;
+    height:512px;
+    width:100%;
+    /*border:2px solid black;*/
+
+}
+.form-div2{
+    margin-top: 0px;
+}
+.form-div2 h2{
+    margin-left:20px ;
+    font-weight: 900;
+    font-size: 30px;
+    margin-top: 40px;
+    margin-bottom: 0px;
+    /*border:2px solid black;*/
+    height:62px;
+    width: 90%;
+}
+.form-div2 label{
+    margin-left: 20px;
+    font-size: 25px;
+    margin-top:0px;
+    height:62px ;
+    width: 90%;
+    margin-bottom: 20px;
+    /*border:2px solid black;*/
+}
+.form-div2 select{
+    margin-top: 30px;
+    margin-left: 20px;
+    width:90%
+
+}
+.form-div2 button{
+    margin-left: 20px;
+    font-size: 25px;
+    margin-top:30px;
+    height:62px ;
+    width: 90%;
+    margin-bottom: 20px;
+    border:2px solid black;
+
+}
+.ad-div{
+    box-shadow: 0 5px 8px rgb(0, 0, 0);
+    margin-bottom: 40px;
+    margin-top: 0px;
+    height:212px;
+    width:100%;
+    /*border:2px solid black;*/
+
+}
+
+.text-overlay h5 {
+    
+    font-weight: 500;
+    font-size: 24px; /* Adjust font size as needed */
+    margin-bottom: 10px; /* Adjust spacing between title and description */
+  }
+  
+  .text-overlay p {
+    font-size: 14px; /* Adjust font size as needed */
+  }
+  .text-overlay button{
+    font-weight: 500;
+    font-size: 19px;
+    background-color: transparent;
+    border:none
+  }
+
+.form-ad{
+    width:2%;
+    height:12px;
+    /*border:2px solid black;*/
+}
+/* facilty intro*/
+/* facilty intro*/
+.univerintro{
+  width:100%;
+     margin-left: 0px;
+     margin-right: 0px;
+     margin-top: 70px;
+     margin-bottom: 70px;
+   }
+   .univerintro h8{
+     margin-left: 20px;
+     margin-right: 0px;
+     margin-bottom: 100px;
+     font-size: 29px;
+     font-weight: 900;
+   }
+   .univerintro p{
+     margin-top: 30px;
+     margin-left: 20px;
+     margin-right:20px;
+     text-align: center;
+     font-size: 20px;
+     font-weight: 500;
+   }
+   .univerintro button{
+     font-size: 20px;
+     margin-top: 50px;
+     margin-left: 35%;
+     background: transparent;
+     border:none;
+     transition: all ease-in-out 0.3s ;
+     border-bottom: 2px solid black;
+   }
+   
+  .univerintro button:hover{
+    text-align: center;
+    font-size: 20px;
+    margin-top: 50px;
+    margin-left: 35%;
+    background: transparent;
+    box-shadow: 0 0 3px #cc00ff, 3px 0 11px #0000ff;
+    
+
+    border: 2px solid black;
+  }
+    
+  }  
