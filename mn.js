@@ -34,3 +34,7 @@ function redirectToSelectedPage() {
     // Redirect to the selected page
     window.location.href = selectedPage;
   }
+
+function faciltys(){
+  window.location.href='facilty.html';
+}
