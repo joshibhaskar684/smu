@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Image Gallery</title>
+  <style>
+    .gallery-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 10px;
+}
+
+.gallery-item {
+  width: 100%;
+}
+
+.gallery-item img {
+  width: 100%;
+  height: auto;
+}
+
+  </style>
+</head>
+<body>
+  <div class="gallery-container" id="galleryContainer"></div>
+  <form id="uploadForm">
+    <input type="file" id="imageInput" accept="image/*" required>
+    <button type="submit">Upload Image</button>
+  </form>
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+  const galleryContainer = document.getElementById('galleryContainer');
+  const uploadForm = document.getElementById('uploadForm');
+  const imageInput = document.getElementById('imageInput');
+
+  uploadForm.addEventListener('submit', function(event) {
+    event.preventDefault();
+    const file = imageInput.files[0];
+    if (file) {
+      uploadImage(file);
+    }
+  });
+
+  function uploadImage(file) {
+    const reader = new FileReader();
+    reader.onload = function() {
+      const imageUrl = reader.result;
+      const galleryItem = document.createElement('div');
+      galleryItem.classList.add('gallery-item');
+      const image = document.createElement('img');
+      image.src = imageUrl;
+      galleryItem.appendChild(image);
+      galleryContainer.appendChild(galleryItem);
+    };
+    reader.readAsDataURL(file);
+  }
+});
+
+  </script>
+</body>
+</html>
